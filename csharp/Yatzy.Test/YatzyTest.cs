@@ -10,7 +10,6 @@ namespace Yatzy.Test
             var expected = 15;
             var actual = Yatzy.Chance(2, 3, 4, 5, 1);
             Assert.Equal(expected, actual);
-            Assert.Equal(16, Yatzy.Chance(3, 3, 4, 5, 1));
         }
    }
 }
